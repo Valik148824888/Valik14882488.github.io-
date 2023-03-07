@@ -10,3 +10,5 @@ const goToPage = () => {
 const reload = () => {
     location.reload = "index.html"
 }
+
+location.reload(); return false;
